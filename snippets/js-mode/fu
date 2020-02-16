@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: anonymous/named function
+# key: fu
+# type: command
+# --
+(doom-snippets-expand :uuid (if (doom-snippets-bolp) "function_block" "function_inline"))

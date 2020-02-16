@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vec![...]
+# key: v
+# uuid: v
+# --
+vec![${1:`%`}]

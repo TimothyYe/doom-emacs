@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: classmethod
+# key: defc
+# uuid: defc
+# group: object oriented
+# --
+@classmethod
+def ${1:method_name}(cls, $1):
+    $0

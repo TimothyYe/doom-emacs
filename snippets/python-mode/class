@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: class
+# key: cl
+# uuid: cl
+# group: object oriented
+# --
+class ${1:Name}($2):
+    $0

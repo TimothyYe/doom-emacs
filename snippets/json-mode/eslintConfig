@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: eslintConfig
+# key: eslint
+# uuid: eslint
+# condition: (equal (file-name-nondirectory buffer-file-name) "package.json")
+# --
+"eslintConfig": {
+    "env": {
+        "es6": true,
+        "browser": true,
+        "commonjs": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}

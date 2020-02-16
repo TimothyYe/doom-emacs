@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: match n { Ok(x), Err(y) }
+# key: match?
+# uuid: match?
+# --
+match ${1:x} {
+    Ok(${2:var}) => $3,
+    Err(${4:error}) => $5
+}

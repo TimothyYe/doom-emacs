@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: tryelse
+# key: try
+# uuid: try
+# --
+try:
+    $1
+except $2:
+    $3
+else:
+    $0

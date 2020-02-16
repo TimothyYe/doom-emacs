@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: require("...")
+# uuid: req
+# type: command
+# --
+(doom-snippets-expand :uuid "require")

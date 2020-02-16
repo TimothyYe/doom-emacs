@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: anonymous function
+# key: function
+# uuid: function_inline
+# condition: (or (not (doom-snippets-bolp)) (region-active-p))
+# --
+function ($1) { `(doom-snippets-format "%n%s%n")`$0 }`(if (eolp) ";")`

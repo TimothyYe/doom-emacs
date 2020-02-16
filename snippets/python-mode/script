@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: script
+# key: script
+# uuid: script
+# --
+#!/usr/bin/env python
+
+def main():
+   pass
+
+if __name__ == '__main__':
+   main()

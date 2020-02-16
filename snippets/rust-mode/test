@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: test function
+# key: test
+# uuid: test
+# condition: (doom-snippets-bolp)
+# --
+#[test]
+fn ${1:test_name}() {
+   `%`$0
+}

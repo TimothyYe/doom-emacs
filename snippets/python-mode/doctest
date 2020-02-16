@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: doctest
+# key: doc
+# uuid: doc
+# group: testing
+# --
+>>> ${1:function calls}
+${2:desired output}
+$0

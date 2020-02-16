@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: struct
+# uuid: struct_alias
+# key: st
+# type: command
+# condition: (doom-snippets-bolp)
+# --
+(doom-snippets-expand :uuid "struct")
