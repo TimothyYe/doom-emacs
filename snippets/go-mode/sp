@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: sprintf
+# --
+fmt.Sprintf("$1\n"${2:, ${3:str}})
