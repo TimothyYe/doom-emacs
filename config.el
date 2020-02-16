@@ -29,8 +29,6 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/Dropbox/org/")
-(setq projectile-project-search-path '("~/GitRepos/" "~/workspace/src"))
-
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
@@ -69,3 +67,6 @@
   (lsp-register-custom-settings
     '(("gopls.completeUnimported" t t)
     ("gopls.staticcheck" t t))))
+
+(after! projectile-mode
+  (setq projectile-project-search-path '("~/GitRepos/" "~/workspace/src")))
