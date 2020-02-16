@@ -1,4 +1,6 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+(load! "keybindings/+keybindings")
+(load! "lang/+config")
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
@@ -51,16 +53,6 @@
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
 ;;
-;; Golang
-(defun lsp-go-install-save-hooks ()
-  (add-hook 'before-save-hook #'lsp-format-buffer t t)
-  (add-hook 'before-save-hook #'lsp-organize-imports t t))
-
-(after! go-mode
-  (add-hook 'go-mode-hook 'lsp-deferred)
-  (add-hook 'go-mode-hook 'before-save-hook 'gofmt-before-save)
-  (add-hook 'go-mode-hook #'lsp-go-install-save-hooks))
-
 (after! lsp-mode
   (setq lsp-enable-snippet t
         lsp-idle-delay 0.2)
@@ -68,5 +60,5 @@
     '(("gopls.completeUnimported" t t)
     ("gopls.staticcheck" t t))))
 
-(after! projectile-mode
+(after! projectile
   (setq projectile-project-search-path '("~/GitRepos/" "~/workspace/src")))
