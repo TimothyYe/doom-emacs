@@ -62,3 +62,8 @@
 
 (after! projectile
   (setq projectile-project-search-path '("~/GitRepos/" "~/workspace/src")))
+
+(after! ivy-posframe
+; Set frame position
+(setf (alist-get t ivy-posframe-display-functions-alist)
+      #'ivy-posframe-display-at-frame-top-center))
