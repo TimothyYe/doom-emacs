@@ -67,3 +67,5 @@
 ; Set frame position
 (setf (alist-get t ivy-posframe-display-functions-alist)
       #'ivy-posframe-display-at-frame-top-center))
+
+(add-hook 'window-setup-hook #'toggle-frame-maximized)
