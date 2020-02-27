@@ -18,3 +18,6 @@
 
 (after! projectile
   (setq projectile-project-search-path '("~/GitRepos/" "~/workspace/src")))
+
+;; elfeed settings
+(setq rmh-elfeed-org-files (list "~/Dropbox/org/elfeed.org"))
