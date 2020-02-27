@@ -21,3 +21,9 @@
 
 ;; elfeed settings
 (setq rmh-elfeed-org-files (list "~/Dropbox/org/elfeed.org"))
+(use-package! elfeed
+  :config
+  (when (featurep! :editor evil +everywhere)
+    (evil-define-key 'normal elfeed-search-mode-map
+      "u" #'elfeed-update
+      )))
