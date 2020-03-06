@@ -2,7 +2,7 @@
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
-(setq fancy-splash-image "~/.doom.d/banner/logo.png")
+(setq fancy-splash-image "~/.doom.d/banner/hack.png")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
