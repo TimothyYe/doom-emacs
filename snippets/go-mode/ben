@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: func Benchmark...() { ... }
+# --
+func Benchmark${1:Name}(${2:b *testing.B}) {
+    `%`$0
+}

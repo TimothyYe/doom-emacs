@@ -25,8 +25,8 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 'relative)
 
-;; set zone out time as 60 seconds
-(setq zone-timer (run-with-idle-timer 60 t 'zone))
+;; set zone out time as 180 seconds
+(setq zone-timer (run-with-idle-timer 180 t 'zone))
 
 (after! ivy-posframe
 ; Set frame position
