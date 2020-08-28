@@ -15,6 +15,16 @@ brew install emacs-mac
 ```
 
 ### Install Doom Emacs
+
+```
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+```
+
 ### Clone this repository
+
+```
+https://github.com/TimothyYe/doom-emacs.git ~/.doom.d
+```
 
 ![https://xiaozhou.net/pics/emacs/3.png](https://xiaozhou.net/pics/emacs/3.png)
