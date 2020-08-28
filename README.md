@@ -24,7 +24,7 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ### Clone this repository
 
 ```
-https://github.com/TimothyYe/doom-emacs.git ~/.doom.d
+git clone https://github.com/TimothyYe/doom-emacs.git ~/.doom.d
 ```
 
 ![https://xiaozhou.net/pics/emacs/3.png](https://xiaozhou.net/pics/emacs/3.png)
