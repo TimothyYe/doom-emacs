@@ -27,7 +27,7 @@ git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 git clone https://github.com/TimothyYe/doom-emacs.git ~/.doom.d
 ```
 
-Run command and sync the Doom Emacs configurations
+### Sync Doom Emacs configurations
 
 ```
 ~/.emacs.d/bin/doom sync
